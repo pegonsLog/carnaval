@@ -23,7 +23,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
     MatDialogModule,
     MatInputModule,
     MatSnackBarModule,
-    MatGridListModule
+    MatGridListModule,
   ],
 })
 export class AngularMaterialModule {}

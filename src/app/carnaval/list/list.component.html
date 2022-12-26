@@ -2,13 +2,10 @@
   <mat-toolbar color="primary" class="montserrat">Blocos</mat-toolbar>
   <div class="toolbar-month">
     <mat-grid-list cols="1" rowHeight="50px">
-      <mat-grid-tile>
-        <p>Bloco Parque Já</p>
-      </mat-grid-tile>
-      <mat-grid-tile>
-        <p>Bloco Parque Já</p>
-      </mat-grid-tile>
-
+      <!-- <mat-grid-tile *ngFor="let bloco of blocos$ | async as Bloco">
+        <a href="">{{bloco.link}}</a>
+      </mat-grid-tile> -->
     </mat-grid-list>
   </div>
 </mat-card>
+

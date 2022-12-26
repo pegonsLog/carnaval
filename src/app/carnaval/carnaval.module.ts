@@ -1,8 +1,10 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ListComponent } from './list/list.component';
-import { FormComponent } from './form/form.component';
+import { HttpClientModule } from '@angular/common/http';
+import { NgModule } from '@angular/core';
 import { AngularMaterialModule } from '../shared/angular-material/angular-material.module';
+import { CarnavalRoutingModule } from './carnaval.routing.module';
+import { FormComponent } from './form/form.component';
+import { ListComponent } from './list/list.component';
 
 
 
@@ -12,7 +14,7 @@ import { AngularMaterialModule } from '../shared/angular-material/angular-materi
     FormComponent
   ],
   imports: [
-    CommonModule, AngularMaterialModule
+    CommonModule, AngularMaterialModule, CarnavalRoutingModule, HttpClientModule
   ],
   exports: [
     ListComponent,
