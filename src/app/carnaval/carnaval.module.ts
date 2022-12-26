@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ListComponent } from './list/list.component';
 import { FormComponent } from './form/form.component';
+import { AngularMaterialModule } from '../shared/angular-material/angular-material.module';
 
 
 
@@ -11,7 +12,11 @@ import { FormComponent } from './form/form.component';
     FormComponent
   ],
   imports: [
-    CommonModule
+    CommonModule, AngularMaterialModule
+  ],
+  exports: [
+    ListComponent,
+    FormComponent
   ]
 })
 export class CarnavalModule { }
