@@ -65,14 +65,9 @@
       "name": "BLOQUINHO",
       "link": " https://www.google.com/maps/d/edit?mid=12DDSxkejXex5raouUX1XAQt01bZDmFU&usp=share_link"
     },
-    {
-      "id": 14,
-      "name": "PRAIANUS",
-      "link": " https://www.google.com/maps/d/edit?mid=1ZdBBPzG46jqn_4kwppiLYrOJIJuR36w&usp=share_link"
-    },
-    {
+      {
       "id": 15,
-      "name": "DO VIASHOPPING",
+      "name": "VIASHOPPING",
       "link": "https://www.google.com/maps/d/edit?mid=1fNsBpAER4z3wku1Yk8W7By-Hm4Aj6sw&usp=share_link"
     },
     {
@@ -184,6 +179,11 @@
       "id": 37,
       "name": "PIPINO FOLIA",
       "link": "https://www.google.com/maps/d/edit?mid=1aS9xcDCQRpX26fPXbAt_awYuYFYSIFk&usp=share_link"
+    },
+    {
+      "id": 14,
+      "name": "PRAIANUS",
+      "link": " https://www.google.com/maps/d/edit?mid=1ZdBBPzG46jqn_4kwppiLYrOJIJuR36w&usp=share_link"
     },
     {
       "id": 38,
