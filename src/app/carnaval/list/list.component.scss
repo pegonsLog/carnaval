@@ -16,8 +16,12 @@ mat-grid-tile {
 }
 
 a {
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-decoration: none;
   color: inherit;
+  margin: auto;
+
 }
 
 span {
@@ -26,4 +30,11 @@ span {
 
 .title-size {
   font-size: x-large;
+}
+
+.teste {
+  background: lightblue;
+  display: flex;
+  margin-bottom: 5px;
+  height: 40px;
 }

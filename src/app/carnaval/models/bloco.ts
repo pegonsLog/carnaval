@@ -3,3 +3,5 @@ export interface Bloco {
   name: string;
   link: string;
 }
+
+export interface Blocos extends Array<Bloco> {}

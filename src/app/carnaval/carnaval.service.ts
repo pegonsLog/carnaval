@@ -1,18 +1,18 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Bloco } from './models/bloco';
+import axios from 'axios';
+import { Observable } from 'rxjs';
+import { Blocos } from './models/bloco';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class CarnavalService {
 
-  private api = "localhost:3001/blocos"
+  private readonly api = "http://localhost:3001/blocos"
+  constructor(private http: HttpClient) {}
 
-  constructor(private http: HttpClient) {
-   }
-
-   list(){
-    return this.http.get<any>(this.api);
-   }
+  list(): Observable<Blocos> {
+    return this.http.get<Blocos>(this.api);
+  }
 }

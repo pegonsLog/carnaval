@@ -1,11 +1,14 @@
 <mat-card class="mat-elevation-z8">
   <mat-toolbar color="primary" class="montserrat">Blocos</mat-toolbar>
   <div class="toolbar-month">
-    <mat-grid-list cols="1" rowHeight="50px">
-      <!-- <mat-grid-tile *ngFor="let bloco of blocos$ | async as Bloco">
-        <a href="">{{bloco.link}}</a>
-      </mat-grid-tile> -->
-    </mat-grid-list>
+    <div *ngIf="blocos">
+      <div *ngFor="let bloco of blocos">
+        <div class="teste">
+          <a href="{{ bloco.link }}">
+            {{ bloco.name }}
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </mat-card>
-
